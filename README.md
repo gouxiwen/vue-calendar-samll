@@ -1,24 +1,24 @@
 # vue-calendar-simple
 
-## Project setup
+## 安装
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install vue-calendar-simple --save
 ```
 
-### Compiles and minifies for production
+## 全局引入
 ```
-npm run build
+import Vue from 'vue'
+import VueCalendarSimple from 'vue-calendar-simple'
+Vue.use(VueCalendarSimple)
+```
+## 组件引入
+```
+import Vue from 'vue'
+import { VueCalendarSimple } from 'vue-calendar-simple'
+export default {
+  components: {
+    VueCalendarSimple
+  }
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
