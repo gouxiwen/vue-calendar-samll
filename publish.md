@@ -1,0 +1,1 @@
+chmod +x publish.sh ./publish.sh

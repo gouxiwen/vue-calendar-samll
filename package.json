@@ -1,8 +1,8 @@
 {
-  "name": "vue-calendar-simple",
-  "version": "0.1.0",
+  "name": "vue-calendar-small",
+  "version": "0.0.1",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "dist/Calendar.js",
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -2,23 +2,28 @@
 
 ## 安装
 ```
-npm install vue-calendar-simple --save
+npm install vue-calendar-small --save
 ```
 
 ## 全局引入
 ```
 import Vue from 'vue'
-import VueCalendarSimple from 'vue-calendar-simple'
-Vue.use(VueCalendarSimple)
+import VueCalendarSamll from 'vue-calendar-small'
+Vue.use(VueCalendarSamll)
 ```
 ## 组件引入
 ```
 import Vue from 'vue'
-import { VueCalendarSimple } from 'vue-calendar-simple'
+import { VueCalendarSamll } from 'vue-calendar-small'
 export default {
   components: {
-    VueCalendarSimple
+    VueCalendarSamll
   }
 }
 ```
+
+## 事件
+```
+handleCalendar  选择日期（初始化时会执行一次）
+handleChangeMonth  切换月份（初始化时会执行一次）
 
