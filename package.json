@@ -1,14 +1,16 @@
 {
   "name": "vue-calendar-small",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "private": false,
   "main": "dist/Calendar.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:npm": "CONTEXT=npm vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": ["vue", "Date", "Calendar"],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
